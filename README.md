@@ -2,5 +2,5 @@
 
 Some useful algorithms for Numerical Analysis including:
 - Non-linear equation
-- Linear Algrbra systems
+- Linear Algebra systems
 - Interpolation
