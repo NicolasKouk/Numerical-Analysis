@@ -1,3 +1,4 @@
+% finds the root of f(x)=0, for x in [xL,xR] using the bisection method with given tolerance and maximum iterations (N_max)
 function [root, counter] = bisection(f, xL, xR, tol, N_max)
   m = xL + (xR - xL)/2; % the first approximation
   counter = 1;
