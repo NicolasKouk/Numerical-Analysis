@@ -1,3 +1,4 @@
+% performs an LU decompotition with the Gaussian Elimination method with partial pivoting
 function [L, U, P] = LUdec_pp(A) 
   n = size (A ,1);
   L = eye(n, n);
