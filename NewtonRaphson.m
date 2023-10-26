@@ -1,3 +1,4 @@
+% finds the root of f(x)=0, using the Newton-Raphson method with given tolerance and maximum iterations (N_max)
 function [root, counter] = NewtonRaphson(f, df, xp, tol, N_max)
   counter = 1;
   if df(xp) == 0 % checking if it's a local extremum
