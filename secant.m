@@ -1,3 +1,4 @@
+% finds the root of f(x)=0, using the secant method with given tolerance and maximum iterations (N_max)
 function [root, counter] = secant(f, x1, x2, tol, N_max)
   xn = x2 - f(x2)*(x2 - x1)/(f(x2) - f(x1));
   counter = 1;
