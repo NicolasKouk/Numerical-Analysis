@@ -1,4 +1,4 @@
-% performs an LU decompotition with the Gaussian Elimination method for a tridiagonal matrix
+% performs an LU decompotition with the Gaussian Elimination method on a tridiagonal matrix
 function [L, U] = LUdec_tr(A)
   n = size(A ,1) ;
   for k = 1:n -1
