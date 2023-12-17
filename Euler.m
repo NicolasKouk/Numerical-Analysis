@@ -1,5 +1,5 @@
 % approximates a function via the Euler method, where y' = f(t,y) and y(a) = y0
-% works with a given h
+% works with a given h and plots the solution
 function y = Euler(y0, f, a, b, h)
   if a>=b || h <= 0
     y = 'Error';
@@ -13,4 +13,4 @@ function y = Euler(y0, f, a, b, h)
     y(i) = y(i-1) + h*f(t,y(i-1));
     t = t + h;
   end
-
+  plot(r,y, '--*')
